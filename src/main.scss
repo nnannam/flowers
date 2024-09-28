@@ -1,0 +1,24 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.posi{
+    position: relative;
+}
+.posi > input{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.posi > input::placeholder{
+    color: rgba($color: #fff, $alpha: 0.6);
+}
+.btn-inside{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+.accordion-button{
+    border: 1px solid rgb(216, 216, 216);
+}
+.accordion-button:not(.collapsed){
+    background-color: #e3e3e3;
+}
