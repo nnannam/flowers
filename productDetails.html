@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Product details</title>
+</head>
+<body>
+    <main>
+        <special-header></special-header>
+        
+        <section>
+            <div class="container-lg my-5">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Product Listing</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Dummy Product Page</li>
+                    </ol>
+                </nav>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="grid d-flex gap-md-3 gap-2 justify-content-center align-items-center">
+                            <div class="d-flex flex-column gap-md-3 gap-2">
+                                <div class="g-col-12 g-col-md-2 bg-secondary"><img src="images/product1.svg" class="img-fluid" alt="product"></div>
+                                <div class="g-col-12 g-col-md-2 bg-secondary"><img src="images/product2.svg" class="img-fluid" alt="product"></div>
+                                <div class="g-col-12 g-col-md-2 bg-secondary"><img src="images/product3.svg" class="img-fluid" alt="product"></div>
+                            </div>
+                            <div class="g-col-4 g-start-3 bg-secondary"><img src="images/productMain.svg" class="img-fluid" alt="product"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column gap-xl-5 gap-3 pt-5 pt-md-0">
+                        <div>
+                            <div class="d-flex justify-content-between align-items-start pb-lg-3">
+                                <h3 class="h3">Double Bed & Side Tables</h3>
+                                <img src="images/heart.svg" alt="heart">
+                            </div>
+                            <div>
+                                <span class="text-secondary h3">$54.98</span>
+                                <img src="images/stars.svg" alt="stars">
+                                <span class="text-secondary">( 32 review )</span>
+                            </div>
+                        </div>
+                        <div class="border-top pt-xl-5 pt-3">
+                            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer adipi scing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magn. Lorem ipsum dolor sit amet, consectetuer adipi scing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magn. </p>
+                            <ul>
+                                <li class="text-secondary">Lorem ipsum dolor sit amet, adipi scing elit</li>
+                                <li class="text-secondary">Lorem ipsum dolor sit amet, consectetuer adipi scing elit</li>
+                                <li class="text-secondary">Lorem ipsum dolor sit amet, adipi scing elit</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="mb-2 d-flex ">
+                                <button class="btn btn-outline-secondary rounded-pill px-5">1</button>
+                                <button class="btn btn-dark rounded-pill w-100">Add to Cart</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark rounded-pill w-100">Buy Now</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex gap-3 mb-3" >
+                                <img src="images/productIcon.svg" alt="icon">
+                                <span class="text-secondary">Free worldwide shipping on all orders over $100</span>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <img src="images/productIcon2.svg" alt="icon">
+                                <span class="text-secondary">Delivers in: 3-7 Working Days Shipping & Return</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5" style="background-color: rgb(248, 248, 248);">
+            <div class="container-lg">
+                <ul class="nav nav-tab nav-underline pt-5" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active text-secondary" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link text-secondary" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Reviews</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active py-5" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <ul class="mt-4">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade py-5" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <ul class="mt-4">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-lg mb-5 pb-5">
+                <h2 class="h2 mt-5 pt-5">Similar Products</h2>
+                <div class="row mt-5 row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <div class="card border-0 col" >
+                        <img src="images/card5.svg" class="card-img-top" alt="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Flower bouquet</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-decoration-line-through text-secondary">$230.00</span>
+                                <span>$200.00</span>
+                            </div>
+                            <a href="#" class="btn p-0"><img src="images/add.svg" alt="add"></a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col" >
+                        <img src="images/card8.svg" class="card-img-top" alt="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Flower bouquet</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-decoration-line-through text-secondary">$230.00</span>
+                                <span>$200.00</span>
+                            </div>
+                            <a href="#" class="btn p-0"><img src="images/add.svg" alt="add"></a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col" >
+                        <img src="images/card1.svg" class="card-img-top" alt="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Flower bouquet</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-decoration-line-through text-secondary">$230.00</span>
+                                <span>$200.00</span>
+                            </div>
+                            <a href="#" class="btn p-0"><img src="images/add.svg" alt="add"></a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card border-0 col" >
+                        <img src="images/card3.svg" class="card-img-top" alt="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Flower bouquet</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-decoration-line-through text-secondary">$230.00</span>
+                                <span>$200.00</span>
+                            </div>
+                            <a href="#" class="btn p-0"><img src="images/add.svg" alt="add"></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <special-footer> </special-footer>
+    </main>
+    <script src="src/main.js"></script>
+</body>
+</html>
+
+
+

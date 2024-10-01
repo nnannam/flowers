@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <special-header></special-header>
+      <section>
+        <div class="container-lg pb-5">
+            <div class="row my-5 border rounded">
+                <div class="col-12 col-md-6 px-md-5 py-5">
+                    <div class="mb-5">
+                        <h2 class="h2">Login</h2>
+                        <span class="text-secondary">Do not have an account, <a href="#" class="text-dark">create a new one.</a></span>
+                    </div>
+                    <form class="d-flex flex-column gap-4">
+                        <div>
+                            <label for="recipient-email" class="col-form-label">Enter Your Email or Phone</label>
+                            <input type="email" placeholder="michael.joe@xmail.com" class="form-control form-rounded " id="recipient-email">
+                          </div>
+                        <div>
+                          <label for="recipient-name" class="col-form-label">Enter Your Password</label>
+                          <input type="password" placeholder="Type your password" class="form-control form-rounded" id="recipient-password">
+                        </div>
+                        <button class="btn rounded-pill btn-dark p-2">Login</button>
+                        <div class="text-center">
+                            <a href="#" class="text-dark">Forgot Your Password</a>
+                        </div>
+                      </form>
+
+                </div>
+                <div class="col-12 col-md-6 pe-md-0 d-flex align-items-center">
+                    <img src="images/login.svg" class="img-fluid w-100" alt="login">
+                </div>
+            </div>
+        </div>
+      </section>
+      <special-footer></special-footer>
+      <script src="src/main.js"></script>
+</body>
+</html>

@@ -11965,6 +11965,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.text-custom {
+  color: #000;
+}
+.text-custom:hover {
+  color: #000;
+}
+.text-custom:active {
+  color: #000;
+}
+
 .posi {
   position: relative;
 }
@@ -11995,4 +12005,8 @@ textarea.form-control-lg {
 
 .accordion-button:not(.collapsed) {
   background-color: #e3e3e3;
+}
+
+.form-rounded {
+  border-radius: 2rem;
 }
