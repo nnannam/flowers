@@ -153,3 +153,27 @@ offcanvasElement.addEventListener('hide.bs.offcanvas', function () {
         link.classList.remove('text-custom'); 
     });
 });
+
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+
+//form alert
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    if (this.checkValidity()) {
+        document.getElementById('alert').style.display = 'block';
+        this.reset();
+    }
+});
